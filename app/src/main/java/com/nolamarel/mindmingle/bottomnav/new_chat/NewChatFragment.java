@@ -1,6 +1,7 @@
 package com.nolamarel.mindmingle.bottomnav.new_chat;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -36,24 +37,38 @@ public class NewChatFragment extends Fragment {
     }
 
     private void loadUsers(){
-
         ArrayList<User> users = new ArrayList<User>();
-
         FirebaseDatabase.getInstance().getReference().child("Users").addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 for (DataSnapshot userSnapshot : snapshot.getChildren()){
-                    if(userSnapshot.getKey().equals(FirebaseAuth.getInstance().getCurrentUser().getUid())){
+                    if (userSnapshot.getKey().equals(FirebaseAuth.getInstance().getCurrentUser().getUid())){
                         continue;
                     }
+
+//                    if (userSnapshot.child("username").exists() && userSnapshot.child("profileImage").exists()) {
+//                        String usern = userSnapshot.child("username").getValue(String.class);
+//                        String profileIm = userSnapshot.child("profileImage").getValue(String.class);
+//
+//                        // Проверка значений
+//                        Log.d("UserData", "Username: " + usern);
+//                        Log.d("UserData", "Profile Image: " + profileIm);
+//                    } else {
+//                        Log.e("UserData", "Не удалось прочитать username или profileImage из DataSnapshot");
+//                    }
+
+
+
                     String username = userSnapshot.child("username").getValue().toString();
                     String profileImage = userSnapshot.child("profileImage").getValue().toString();
 
                     users.add(new User(username, profileImage));
                 }
+                Log.d("UserCount", "Количество пользователей: " + users.size());
                 binding.usersRv.setLayoutManager(new LinearLayoutManager(getContext()));
                 binding.usersRv.addItemDecoration(new DividerItemDecoration(getContext(), DividerItemDecoration.VERTICAL));
                 binding.usersRv.setAdapter(new UsersAdapter(users));
+                Log.d("RecyclerViewVisibility", "Количество видимых элементов: " + binding.usersRv.getLayoutManager().getChildCount());
             }
 
             @Override
@@ -62,5 +77,4 @@ public class NewChatFragment extends Fragment {
             }
         });
     }
-
 }

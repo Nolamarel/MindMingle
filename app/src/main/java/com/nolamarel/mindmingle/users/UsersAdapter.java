@@ -12,12 +12,14 @@ import com.nolamarel.mindmingle.R;
 
 import java.util.ArrayList;
 
-public class UsersAdapter extends RecyclerView.Adapter<UsersViewHolder> {
+public class UsersAdapter extends RecyclerView.Adapter<UsersViewHolder>{
+
     private ArrayList<User> users = new ArrayList<>();
 
     public UsersAdapter(ArrayList<User> users){
         this.users = users;
     }
+
     @NonNull
     @Override
     public UsersViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -31,7 +33,7 @@ public class UsersAdapter extends RecyclerView.Adapter<UsersViewHolder> {
 
         holder.username_tv.setText(user.username);
 
-        if(!user.profileImage.isEmpty()){
+        if (!user.profileImage.isEmpty()){
             Glide.with(holder.itemView.getContext()).load(user.profileImage).into(holder.profileImage_iv);
         }
     }
