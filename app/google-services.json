@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1048161574660",
+    "project_id": "chat-mm-ec2fc",
+    "storage_bucket": "chat-mm-ec2fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048161574660:android:eec7074cdf73fdf71cfa51",
+        "android_client_info": {
+          "package_name": "com.nolamarel.mindmingle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASuhMxrjcBfk5YSgLpRdciKix5k2zUd6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
