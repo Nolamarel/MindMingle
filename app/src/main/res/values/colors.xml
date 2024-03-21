@@ -5,4 +5,8 @@
     <color name="body">#EABCBC</color>
     <color name="dark_body">#D86262</color>
     <color name="blue">#1577CC</color>
+    <color name="grey">#C8CFCF</color>
+    <color name="light_blue">#61A3E4</color>
+
+
 </resources>

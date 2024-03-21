@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/chats"
-        android:title="Chats"
-        android:icon="@drawable/ic_chat_btn"/>
+        android:icon="@drawable/chat_btn"
+        tools:ignore="MenuTitle" />
     <item
-        android:id="@+id/new_chat"
-        android:title="New Chat"
-        android:icon="@drawable/ic_search_icon"/>
+        android:id="@+id/tests"
+        android:icon="@drawable/tests_btn"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/sos"
+        android:icon="@drawable/sos_btn"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/diary"
+        android:icon="@drawable/diary_btn"
+        tools:ignore="MenuTitle" />
     <item
         android:id="@+id/profile"
-        android:title="Profile"
-        android:icon="@drawable/ic_profile_icon"/>
+        android:icon="@drawable/account_btn"
+        tools:ignore="MenuTitle" />
 </menu>
