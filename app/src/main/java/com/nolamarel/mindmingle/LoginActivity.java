@@ -48,7 +48,5 @@ private ActivityLoginBinding binding;
                 startActivity(new Intent(LoginActivity.this, SignUpActivity.class));
             }
         });
-
     }
-
 }

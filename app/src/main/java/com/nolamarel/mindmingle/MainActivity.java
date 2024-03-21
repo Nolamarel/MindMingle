@@ -11,8 +11,10 @@ import android.util.Log;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.nolamarel.mindmingle.bottomnav.chats.ChatsFragment;
-import com.nolamarel.mindmingle.bottomnav.new_chat.NewChatFragment;
+import com.nolamarel.mindmingle.bottomnav.diary.DiaryFragment;
 import com.nolamarel.mindmingle.bottomnav.profile.ProfileFragment;
+import com.nolamarel.mindmingle.bottomnav.sos.SosFragment;
+import com.nolamarel.mindmingle.bottomnav.tests.TestsFragment;
 import com.nolamarel.mindmingle.databinding.ActivityMainBinding;
 
 import java.util.HashMap;
@@ -63,7 +65,9 @@ private ActivityMainBinding binding;
         binding.bottomNav.setSelectedItemId(R.id.chats);
         Map<Integer, Fragment> fragmentMap = new HashMap<>();
         fragmentMap.put(R.id.chats, new ChatsFragment());
-        fragmentMap.put(R.id.new_chat, new NewChatFragment());
+        fragmentMap.put(R.id.tests, new TestsFragment());
+        fragmentMap.put(R.id.diary, new DiaryFragment());
+        fragmentMap.put(R.id.sos, new SosFragment());
         fragmentMap.put(R.id.profile, new ProfileFragment());
 
         binding.bottomNav.setOnItemSelectedListener(item -> {

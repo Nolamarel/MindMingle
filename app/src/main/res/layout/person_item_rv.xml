@@ -11,7 +11,7 @@
         android:id="@+id/profile_rv"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/ic_profile_icon"
+        android:src="@drawable/account_btn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginStart="15dp"/>

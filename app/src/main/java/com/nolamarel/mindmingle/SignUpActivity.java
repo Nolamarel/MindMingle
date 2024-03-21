@@ -38,6 +38,8 @@ private ActivitySignUpBinding binding;
                                 public void onComplete(@NonNull Task<AuthResult> task) {
                                     if(task.isSuccessful()){
                                         HashMap<String, String> userInfo = new HashMap<>();
+                                        userInfo.put("chats", "");
+                                        userInfo.put("notes", "");
                                         userInfo.put("email", binding.nameEmail.getText().toString());
                                         userInfo.put("username", binding.userName.getText().toString());
                                         userInfo.put("profileImage", "");
@@ -61,9 +63,9 @@ private ActivitySignUpBinding binding;
                                 }
                             });
                 }
-                                    }
-                                });
-
-
-                }
             }
+        });
+
+
+    }
+}
