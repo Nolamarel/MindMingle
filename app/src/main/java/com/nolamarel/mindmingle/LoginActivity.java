@@ -2,6 +2,7 @@ package com.nolamarel.mindmingle;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,11 +17,15 @@ import com.nolamarel.mindmingle.databinding.ActivityLoginBinding;
 
 public class LoginActivity extends AppCompatActivity {
 private ActivityLoginBinding binding;
+private Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = ActivityLoginBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        toolbar = findViewById(R.id.myToolbar);
+        setSupportActionBar(toolbar);
+        setTitle("Login");
         binding.loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

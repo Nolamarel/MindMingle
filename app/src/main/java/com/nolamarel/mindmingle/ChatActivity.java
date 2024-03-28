@@ -52,6 +52,12 @@ public class ChatActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * Method for adding a message to the Database
+     * @param chatId Chat ID
+     * @param message The text of the message
+     * @param date Date the message was sent
+     */
     private void sendMessage(String chatId, String message, String date){
         if (chatId == null) return;
         HashMap<String, String> messageInfo = new HashMap<>();
@@ -62,6 +68,10 @@ public class ChatActivity extends AppCompatActivity {
                 .child("messages").push().setValue(messageInfo);
     }
 
+    /**
+     * A method for downloading all messages from the Database
+     * @param chatId Chat ID
+     */
     private void loadMessages(String chatId){
         if(chatId == null) return;
         FirebaseDatabase.getInstance().getReference().child("Chats").child(chatId).child("messages").addValueEventListener(new ValueEventListener() {
