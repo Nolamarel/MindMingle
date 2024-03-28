@@ -32,6 +32,8 @@ public class TestsFragment extends Fragment {
         tests.add(new Test(R.drawable.peace1, "Тест3", "Немного описания теста", ""));
         tests.add(new Test(R.drawable.peace1, "Тест4", "Немного описания теста", ""));
         tests.add(new Test(R.drawable.peace1, "Тест5", "Немного описания теста", ""));
+        tests.add(new Test(R.drawable.peace1, "Тест5", "Немного описания теста", ""));
+
         binding.testsRv.setLayoutManager(new GridLayoutManager(getContext(), 2));
         binding.testsRv.setAdapter(new TestsAdapter(tests));
 

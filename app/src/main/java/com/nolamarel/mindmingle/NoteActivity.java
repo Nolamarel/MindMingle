@@ -65,6 +65,12 @@ public class NoteActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * Method for adding a new note
+     * @param userId user identity
+     * @param note The text of the note
+     * @param date Date of dispatch
+     */
     private void sendNote( String userId, String note, String date){
         if (userId == null) return;
         HashMap<String, String> notesInfo = new HashMap<>();
@@ -74,6 +80,13 @@ public class NoteActivity extends AppCompatActivity {
                 .child("notes").push().setValue(notesInfo);
     }
 
+    /**
+     * A method for editing a note
+     * @param userId user identity
+     * @param noteId Note ID
+     * @param updatedNote Updated text of the note
+     * @param date Date of editing
+     */
     private void updateNote(String userId, String noteId, String updatedNote, String date) {
         // Обновление записи с указанным noteId в базе данных
         if (userId == null) return;
