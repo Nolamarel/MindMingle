@@ -31,7 +31,7 @@ private ActivityMainBinding binding;
         FirebaseAuth mAuth;
         mAuth = FirebaseAuth.getInstance();
 
-        //ДЛЯ УДАЛЕНИЯ ПОЛЬЗОВАТЕЛЯ
+        //For delete user
 
 //        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 //
@@ -41,9 +41,7 @@ private ActivityMainBinding binding;
 //                        @Override
 //                        public void onComplete(@NonNull Task<Void> task) {
 //                            if (task.isSuccessful()) {
-//                                Log.d("User", "УДАЛИЛИ");
 //                            } else {
-//                                Log.d("User", "НЕ УДАЛИЛИ");
 //
 //                            }
 //                        }

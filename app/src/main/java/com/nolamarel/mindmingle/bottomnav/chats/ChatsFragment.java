@@ -58,11 +58,15 @@ public class ChatsFragment extends Fragment {
             }
         });
 
-        //  TODO: СДЕЛАТЬ ТАК, ЧТОБЫ ВКЛАДКА ПОИСКА ЗАКРЫВАЛАСЬ ПРИ НАЖАТИИ НА ЮЗЕРА
+        //  TODO: MAKE THE SEARCH TAB CLOSE WHEN YOU CLICK ON THE USER
 
         return binding.getRoot();
     }
 
+    /**
+     * A method for searching for users
+     * @param query
+     */
     private void searchUsers(String query) {
         ArrayList<User> filteredUsers = new ArrayList<>();
 
@@ -90,6 +94,10 @@ public class ChatsFragment extends Fragment {
             }
         });
     }
+
+    /**
+     * Method for uploading chats
+     */
     private void loadChats(){
 
 
@@ -139,6 +147,12 @@ public class ChatsFragment extends Fragment {
     }
 }
 
+    /**
+     * Checking for a shared chat
+     * @param userId1 first user
+     * @param userId2 second user
+     * @return
+     */
     private boolean isCommonChat(String userId1, String userId2) {
         // Проверяем наличие общего чата между userId1 и userId2
         for (Chat chat : chats) {

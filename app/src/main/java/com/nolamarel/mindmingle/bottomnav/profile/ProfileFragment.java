@@ -86,6 +86,9 @@ public class ProfileFragment extends Fragment {
                 }
             });
 
+    /**
+     * The method for loading the profile page
+     */
     private void loadUserInfo(){
         FirebaseDatabase.getInstance().getReference().child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid())
                 .addListenerForSingleValueEvent(new ValueEventListener() {
@@ -108,6 +111,10 @@ public class ProfileFragment extends Fragment {
                 });
     }
 
+
+    /**
+     * The method for selecting an image from the gallery
+     */
     private void selectImage(){
         Intent intent = new Intent();
         intent.setType("image/*");
@@ -115,6 +122,9 @@ public class ProfileFragment extends Fragment {
         pickImageActivityResultLauncher.launch(intent);
     }
 
+    /**
+     * Method for uploading an image to the Database
+     */
     private void uploadImage(){
         if (filePath!=null){
             String uid = FirebaseAuth.getInstance().getCurrentUser().getUid();

@@ -83,6 +83,9 @@ public class DiaryFragment extends Fragment {
         loadNotes();
     }
 
+    /**
+     * A method for downloading all Notes from the Database
+     */
     private void loadNotes(){
         String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();
 
