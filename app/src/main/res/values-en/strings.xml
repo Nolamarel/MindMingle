@@ -19,7 +19,7 @@
     <string name="answer4">accidentally;</string>
     <string name="answer5">very rarely.</string>
     <string name="nextq">Next question</string>
-    <string name="_2">2. Most people don't believe in anything new until they experience it for themselves.</string>
+    <string name="_2">2. Most people don\'t believe in anything new until they experience it for themselves.</string>
     <string name="itog">Result</string>
     <string name="closetest">Complete the test</string>
     <string name="_3">3. Someone who completely trusts other people is often in a difficult position.</string>
@@ -30,7 +30,7 @@
     <string name="an">no</string>
     <string name="q24">Do you often worry about the future?</string>
     <string name="q34">Do you have trouble falling asleep because of worries?</string>
-    <string name="q44">Do you feel tired even after a night's sleep?</string>
+    <string name="q44">Do you feel tired even after a night\'s sleep?</string>
     <string name="q54">Do you often feel irritated or stressed?</string>
     <string name="q21">You have unexpectedly achieved success with someone who you dislike. Will your opinion of this person change, will he become more pleasant to you?</string>
     <string name="q22">Will you be able to captivate a person with your idea by talking to them only on the phone?</string>
@@ -51,12 +51,12 @@
     <string name="a63">They would have tried to cheat if they had the opportunity.</string>
     <string name="this_is_message_text">This is message text</string>
     <string name="r1t4">High degree of stress: The results indicate a high level of stress. It is recommended to seek the help of a qualified professional, such as a psychologist or psychiatrist, to receive support and advice on stress management.</string>
-    <string name="r2t4">Average stress level: Your answers indicate an average stress level. This may be a sign that your stress level is within the normal range, but it's still worth paying attention to your emotional states. Try to find ways to deal with stress, such as regular physical activity, meditation, deep breathing, or counseling with a psychologist.</string>
+    <string name="r2t4">Average stress level: Your answers indicate an average stress level. This may be a sign that your stress level is within the normal range, but it\'s still worth paying attention to your emotional states. Try to find ways to deal with stress, such as regular physical activity, meditation, deep breathing, or counseling with a psychologist.</string>
     <string name="r3t4">Low stress: Your responses indicate a low level of stress. This is good, but it must be remembered that stress can change over time, and it is important to continue to take care of your emotional and psychological well-being. Regular rest, healthy eating, maintaining social connections, and time management can help maintain your well-being.</string>
     <string name="r1t2">You are convinced that you have a personal charm. It seems that this is the case, but in some situations you should be more self-critical of yourself and pay more attention not to yourself, but to the people around you.</string>
     <string name="r2t2">There is no doubt that you can be called a charming person. You are pleasant in communication, you have a sense of self-worth. You will not change your beliefs and character just to make someone adore you.</string>
-    <string name="r3t2">You are not everyone's favorite just because you keep the charm to yourself. This is probably because you are a very indecisive person, because of your lack of confidence in your own abilities, you are not able to convince others of your rightness, even if the truth is on your side.</string>
-    <string name="r4t2">You lack charm primarily because you don't love yourself. Look in the mirror more often and learn to notice your advantages. The shortcomings that can be corrected, correct, and which cannot be changed, turn into advantages, into your "highlight". When communicating with others, try to keep a sense of self-worth</string>
+    <string name="r3t2">You are not everyone\'s favorite just because you keep the charm to yourself. This is probably because you are a very indecisive person, because of your lack of confidence in your own abilities, you are not able to convince others of your rightness, even if the truth is on your side.</string>
+    <string name="r4t2">You lack charm primarily because you don\'t love yourself. Look in the mirror more often and learn to notice your advantages. The shortcomings that can be corrected, correct, and which cannot be changed, turn into advantages, into your "highlight". When communicating with others, try to keep a sense of self-worth</string>
     <string name="r1t3">You have a high confidence score</string>
     <string name="r2t3">You have an average confidence score</string>
     <string name="r3t3">You have a low confidence score</string>
@@ -69,7 +69,7 @@
     <string name="t2tf">Test 2</string>
     <string name="t22tf">Do you have charm?</string>
     <string name="t3tf">Test 3</string>
-    <string name="t33tf">M. Rosenberg's scale of trust</string>
+    <string name="t33tf">M. Rosenberg\'s scale of trust</string>
     <string name="t4tf">Test 4</string>
     <string name="t44tf">A psychological test to determine the level of stress</string>
 </resources>
