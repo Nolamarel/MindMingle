@@ -29,10 +29,10 @@ public class TestsFragment extends Fragment {
         binding = FragmentTestsBinding.inflate(inflater, container, false);
 
         ArrayList<Test> tests = new ArrayList<>();
-        tests.add(new Test(R.drawable.peace1, getString(R.string.t1tf), getString(R.string.t11tf), ""));
-        tests.add(new Test(R.drawable.peace1, getString(R.string.t2tf), getString(R.string.t22tf), ""));
-        tests.add(new Test(R.drawable.peace1, getString(R.string.t3tf), getString(R.string.t33tf), ""));
-        tests.add(new Test(R.drawable.peace1, getString(R.string.t4tf), getString(R.string.t44tf), ""));
+        tests.add(new Test(R.drawable.peace1, getString(R.string.t11tf), "", ""));
+        tests.add(new Test(R.drawable.peace1, getString(R.string.t22tf), "", ""));
+        tests.add(new Test(R.drawable.peace1, getString(R.string.t33tf), "", ""));
+        tests.add(new Test(R.drawable.peace1, getString(R.string.t44tf), "", ""));
 
 
         binding.testsRv.setLayoutManager(new GridLayoutManager(getContext(), 2));
