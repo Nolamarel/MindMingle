@@ -15,6 +15,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
+
+import com.nolamarel.mindmingle.R;
 import com.nolamarel.mindmingle.databinding.FragmentSosBinding;
 
 public class SosFragment extends Fragment {
@@ -54,16 +56,16 @@ public class SosFragment extends Fragment {
             public void onTick(long millisUntilFinished) {
                 switch (state) {
                     case 0:
-                        binding.breathingButton.setText("Вдох");
+                        binding.breathingButton.setText(R.string.inhale);
                         break;
                     case 1:
-                        binding.breathingButton.setText("Пауза");
+                        binding.breathingButton.setText(R.string.pause);
                         break;
                     case 2:
-                        binding.breathingButton.setText("Выдох");
+                        binding.breathingButton.setText(R.string.exhale);
                         break;
                     case 3:
-                        binding.breathingButton.setText("Пауза");
+                        binding.breathingButton.setText(R.string.pause);
                         break;
                 }
             }
