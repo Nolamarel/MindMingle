@@ -33,8 +33,10 @@ public class SosFragment extends Fragment {
         binding = FragmentSosBinding.inflate(inflater, container, false);
 
 
-        ObjectAnimator scaleX = ObjectAnimator.ofFloat(binding.breathingButton, "scaleX", 1f, 1.7f);
-        ObjectAnimator scaleY = ObjectAnimator.ofFloat(binding.breathingButton, "scaleY", 1f, 1.7f);
+        ObjectAnimator scaleX = ObjectAnimator.ofFloat(binding.breathingButton,
+                "scaleX", 1f, 1.7f);
+        ObjectAnimator scaleY = ObjectAnimator.ofFloat(binding.breathingButton,
+                "scaleY", 1f, 1.7f);
         scaleX.setDuration(4000);
         scaleY.setDuration(4000);
 
@@ -42,8 +44,10 @@ public class SosFragment extends Fragment {
         set1.play(scaleX).with(scaleY);
 
 
-        ObjectAnimator backX = ObjectAnimator.ofFloat(binding.breathingButton, "scaleX", 1.7f, 1f);
-        ObjectAnimator backY = ObjectAnimator.ofFloat(binding.breathingButton, "scaleY", 1.7f, 1f);
+        ObjectAnimator backX = ObjectAnimator.ofFloat(binding.breathingButton,
+                "scaleX", 1.7f, 1f);
+        ObjectAnimator backY = ObjectAnimator.ofFloat(binding.breathingButton,
+                "scaleY", 1.7f, 1f);
         backX.setDuration(4000);
         backY.setDuration(4000);
 
