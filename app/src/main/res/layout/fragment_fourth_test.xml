@@ -25,25 +25,25 @@
                 android:id="@+id/tv1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Часто ли вы чувствуете, что несправедливость окружает вас?" />
+                android:text="@string/q14" />
 
             <RadioButton
                 android:id="@+id/rb1_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="да" />
+                android:text="@string/ay" />
 
             <RadioButton
                 android:id="@+id/rb2_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="нет" />
+                android:text="@string/an" />
 
             <Button
                 android:id="@+id/btnNext1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Следующий вопрос"
+                android:text="@string/nextq"
                 android:textSize="20sp" />
 
         </RadioGroup>
@@ -62,25 +62,25 @@
                 android:id="@+id/tv2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Вас часто беспокоит будущее?" />
+                android:text="@string/q24" />
 
             <RadioButton
                 android:id="@+id/rb1_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="да" />
+                android:text="@string/ay" />
 
             <RadioButton
                 android:id="@+id/rb2_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="нет" />
+                android:text="@string/an" />
 
             <Button
                 android:id="@+id/btnNext2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Следующий вопрос"
+                android:text="@string/nextq"
                 android:textSize="20sp" />
 
         </RadioGroup>
@@ -99,25 +99,25 @@
                 android:id="@+id/tv3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="У вас бывают проблемы с засыпанием из-за беспокойств?" />
+                android:text="@string/q34" />
 
             <RadioButton
                 android:id="@+id/rb1_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="да" />
+                android:text="@string/ay" />
 
             <RadioButton
                 android:id="@+id/rb2_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="нет" />
+                android:text="@string/an" />
 
             <Button
                 android:id="@+id/btnNext3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Следующий вопрос"
+                android:text="@string/nextq"
                 android:textSize="20sp" />
 
         </RadioGroup>
@@ -136,25 +136,25 @@
                 android:id="@+id/tv4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Вы чувствуете себя уставшим даже после ночного сна?" />
+                android:text="@string/q44" />
 
             <RadioButton
                 android:id="@+id/rb1_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="да" />
+                android:text="@string/ay" />
 
             <RadioButton
                 android:id="@+id/rb2_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="нет" />
+                android:text="@string/an" />
 
             <Button
                 android:id="@+id/btnNext4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Следующий вопрос"
+                android:text="@string/nextq"
                 android:textSize="20sp" />
 
         </RadioGroup>
@@ -173,19 +173,19 @@
                 android:id="@+id/tv5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Часто ли вы чувствуете себя раздраженным или напряженным?" />
+                android:text="@string/q54" />
 
             <RadioButton
                 android:id="@+id/rb1_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="да" />
+                android:text="@string/ay" />
 
             <RadioButton
                 android:id="@+id/rb2_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="нет" />
+                android:text="@string/an" />
 
         </RadioGroup>
 
@@ -194,7 +194,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
-            android:text="Завершить тест"
+            android:text="@string/closetest"
             android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.179"
@@ -206,7 +206,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="224dp"
-            android:text="Итог"
+            android:text="@string/itog"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"

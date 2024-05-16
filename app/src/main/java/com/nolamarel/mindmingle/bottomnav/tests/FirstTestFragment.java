@@ -53,19 +53,19 @@ public class FirstTestFragment extends Fragment {
                 if (rg1.getCheckedRadioButtonId() != -1) {
                     int selectedId1 = rg1.getCheckedRadioButtonId();
                     radioButton1 = view.findViewById(selectedId1);
-                    if (radioButton1.getText().toString().equals("практически всегда;")) {
+                    if (radioButton1.getText().toString().equals(R.string.answer1)) {
                         score += 5;
                     }
-                    if (radioButton1.getText().toString().equals("часто;")) {
+                    if (radioButton1.getText().toString().equals(R.string.answer2)) {
                         score += 4;
                     }
-                    if (radioButton1.getText().toString().equals("иногда;")) {
+                    if (radioButton1.getText().toString().equals(R.string.answer3)) {
                         score += 3;
                     }
-                    if (radioButton1.getText().toString().equals("случайно;")) {
+                    if (radioButton1.getText().toString().equals(R.string.answer4)) {
                         score += 2;
                     }
-                    if (radioButton1.getText().toString().equals("очень редко.")) {
+                    if (radioButton1.getText().toString().equals(R.string.answer5)) {
                         score += 1;
                     }
                     rg1.setVisibility(View.GONE);
@@ -84,19 +84,19 @@ public class FirstTestFragment extends Fragment {
                 if (rg2.getCheckedRadioButtonId() != -1) {
                     int selectedId2 = rg2.getCheckedRadioButtonId();
                     radioButton2 = view.findViewById(selectedId2);
-                    if (radioButton2.getText().toString().equals("практически всегда;")) {
+                    if (radioButton2.getText().toString().equals(R.string.answer1)) {
                         score += 5;
                     }
-                    if (radioButton2.getText().toString().equals("часто;")) {
+                    if (radioButton2.getText().toString().equals(R.string.answer2)) {
                         score += 4;
                     }
-                    if (radioButton2.getText().toString().equals("иногда;")) {
+                    if (radioButton2.getText().toString().equals(R.string.answer3)) {
                         score += 3;
                     }
-                    if (radioButton2.getText().toString().equals("случайно;")) {
+                    if (radioButton2.getText().toString().equals(R.string.answer4)) {
                         score += 2;
                     }
-                    if (radioButton2.getText().toString().equals("очень редко.")) {
+                    if (radioButton2.getText().toString().equals(R.string.answer5)) {
                         score += 1;
                     }
                     btnNext2.setOnClickListener(new View.OnClickListener() {
@@ -120,19 +120,19 @@ public class FirstTestFragment extends Fragment {
                 if (rg3.getCheckedRadioButtonId() != -1) {
                     int selectedId3 = rg3.getCheckedRadioButtonId();
                     radioButton3 = view.findViewById(selectedId3);
-                    if (radioButton3.getText().toString().equals("практически всегда;")) {
+                    if (radioButton3.getText().toString().equals(R.string.answer1)) {
                         score += 5;
                     }
-                    if (radioButton3.getText().toString().equals("часто;")) {
+                    if (radioButton3.getText().toString().equals(R.string.answer2)) {
                         score += 4;
                     }
-                    if (radioButton3.getText().toString().equals("иногда;")) {
+                    if (radioButton3.getText().toString().equals(R.string.answer3)) {
                         score += 3;
                     }
-                    if (radioButton3.getText().toString().equals("случайно;")) {
+                    if (radioButton3.getText().toString().equals(R.string.answer4)) {
                         score += 2;
                     }
-                    if (radioButton3.getText().toString().equals("очень редко.")) {
+                    if (radioButton3.getText().toString().equals(R.string.answer5)) {
                         score += 1;
                     }
                     btnNext3.setOnClickListener(new View.OnClickListener() {
@@ -156,19 +156,19 @@ public class FirstTestFragment extends Fragment {
                 if (rg4.getCheckedRadioButtonId() != -1) {
                     int selectedId4 = rg4.getCheckedRadioButtonId();
                     radioButton4 = view.findViewById(selectedId4);
-                    if (radioButton4.getText().toString().equals("практически всегда;")) {
+                    if (radioButton4.getText().toString().equals(R.string.answer1)) {
                         score += 5;
                     }
-                    if (radioButton4.getText().toString().equals("часто;")) {
+                    if (radioButton4.getText().toString().equals(R.string.answer2)) {
                         score += 4;
                     }
-                    if (radioButton4.getText().toString().equals("иногда;")) {
+                    if (radioButton4.getText().toString().equals(R.string.answer3)) {
                         score += 3;
                     }
-                    if (radioButton4.getText().toString().equals("случайно;")) {
+                    if (radioButton4.getText().toString().equals(R.string.answer4)) {
                         score += 2;
                     }
-                    if (radioButton4.getText().toString().equals("очень редко.")) {
+                    if (radioButton4.getText().toString().equals(R.string.answer5)) {
                         score += 1;
                     }
 
@@ -191,19 +191,19 @@ public class FirstTestFragment extends Fragment {
         if (rg5.getCheckedRadioButtonId() != -1) {
             int selectedId5 = rg5.getCheckedRadioButtonId();
             radioButton5 = view.findViewById(selectedId5);
-            if (radioButton5.getText().toString().equals("практически всегда;")) {
+            if (radioButton5.getText().toString().equals(R.string.answer1)) {
                 score += 5;
             }
-            if (radioButton5.getText().toString().equals("часто;")) {
+            if (radioButton5.getText().toString().equals(R.string.answer2)) {
                 score += 4;
             }
-            if (radioButton5.getText().toString().equals("иногда;")) {
+            if (radioButton5.getText().toString().equals(R.string.answer3)) {
                 score += 3;
             }
-            if (radioButton5.getText().toString().equals("случайно;")) {
+            if (radioButton5.getText().toString().equals(R.string.answer4)) {
                 score += 2;
             }
-            if (radioButton5.getText().toString().equals("очень редко.")) {
+            if (radioButton5.getText().toString().equals(R.string.answer5)) {
                 score += 1;
             }
         }
@@ -219,13 +219,13 @@ public class FirstTestFragment extends Fragment {
                 textView.setVisibility(View.VISIBLE);
 
                 if (score >= 20) {
-                    textView.setText("высокий показатель;");
+                    textView.setText(R.string.r1t1);
                 } else if (score < 20 && score >= 15) {
-                    textView.setText("средний показатель с тенденцией к высокому;");
+                    textView.setText(R.string.r2t1);
                 } else if (score < 15 && score >= 10) {
-                    textView.setText("средний показатель с тенденцией к низкому;");
+                    textView.setText(R.string.r3t1);
                 } else if (score < 10) {
-                    textView.setText("низкий показатель.");
+                    textView.setText(R.string.r4t1);
                 }
             }
         });

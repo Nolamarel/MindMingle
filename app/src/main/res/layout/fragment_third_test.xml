@@ -25,25 +25,25 @@
                 android:id="@+id/vt1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Как вы думаете, большинству людей можно доверять или во взаимодействии с другими нужно соблюдать осторожность?" />
+                android:text="@string/q13" />
 
             <RadioButton
                 android:id="@+id/br1_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Большинству людей можно доверять." />
+                android:text="@string/a13" />
 
             <RadioButton
                 android:id="@+id/br2_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Во взаимодействии с другими нужно соблюдать осторожность." />
+                android:text="@string/a23" />
 
             <Button
                 android:id="@+id/bn1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Следующий вопрос"
+                android:text="@string/nextq"
                 android:textSize="20sp" />
 
         </RadioGroup>
@@ -62,26 +62,26 @@
                 android:id="@+id/vt2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Могли бы вы сказать, что люди чаще всего стремятся быть полезными другим или они думают только о себе?" />
+                android:text="@string/q32" />
 
             <RadioButton
                 android:id="@+id/br1_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Стремятся быть полезными другим." />
+                android:text="@string/a33" />
 
             <RadioButton
                 android:id="@+id/br2_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Думают только о себе." />
+                android:text="@string/a43" />
 
 
             <Button
                 android:id="@+id/bn2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Следующий вопрос"
+                android:text="@string/nextq"
                 android:textSize="20sp" />
 
         </RadioGroup>
@@ -100,19 +100,19 @@
                 android:id="@+id/vt3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Как вы думаете, большинство людей попытались бы обмануть вас, если бы им представилась такая возможность, или вели бы себя честно?" />
+                android:text="@string/q33" />
 
             <RadioButton
                 android:id="@+id/br2_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Вели бы себя честно." />
+                android:text="@string/a53" />
 
             <RadioButton
                 android:id="@+id/br1_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Попытались бы обмануть, если бы им представилась такая возможность." />
+                android:text="@string/a63" />
 
         </RadioGroup>
 
@@ -121,7 +121,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
-            android:text="Завершить тест"
+            android:text="@string/closetest"
             android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.179"
@@ -133,7 +133,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="224dp"
-            android:text="Итог"
+            android:text="@string/itog"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"

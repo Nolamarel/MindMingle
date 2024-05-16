@@ -63,10 +63,10 @@ public class SecondTestFragment extends Fragment{
                 if (gr1.getCheckedRadioButtonId() != -1) {
                     int selectedId1 = gr1.getCheckedRadioButtonId();
                     radioButton1 = view.findViewById(selectedId1);
-                    if (radioButton1.getText().toString().equals("да")) {
+                    if (radioButton1.getText().toString().equals(R.string.ay)) {
                         score += 1;
                     }
-                    if (radioButton1.getText().toString().equals("нет")) {
+                    if (radioButton1.getText().toString().equals(R.string.an)) {
                         score += 0;
                     }
                     gr1.setVisibility(View.GONE);
@@ -89,10 +89,10 @@ public class SecondTestFragment extends Fragment{
                 if (gr2.getCheckedRadioButtonId() != -1) {
                     int selectedId1 = gr2.getCheckedRadioButtonId();
                     radioButton2 = view.findViewById(selectedId1);
-                    if (radioButton2.getText().toString().equals("да")) {
+                    if (radioButton2.getText().toString().equals(R.string.ay)) {
                         score += 1;
                     }
-                    if (radioButton2.getText().toString().equals("нет")) {
+                    if (radioButton2.getText().toString().equals(R.string.an)) {
                         score += 0;
                     }
                     gr1.setVisibility(View.GONE);
@@ -115,10 +115,10 @@ public class SecondTestFragment extends Fragment{
                 if (gr3.getCheckedRadioButtonId() != -1) {
                     int selectedId1 = gr3.getCheckedRadioButtonId();
                     radioButton3 = view.findViewById(selectedId1);
-                    if (radioButton3.getText().toString().equals("да")) {
+                    if (radioButton3.getText().toString().equals(R.string.ay)) {
                         score += 1;
                     }
-                    if (radioButton3.getText().toString().equals("нет")) {
+                    if (radioButton3.getText().toString().equals(R.string.an)) {
                         score += 0;
                     }
                     gr1.setVisibility(View.GONE);
@@ -141,10 +141,10 @@ public class SecondTestFragment extends Fragment{
                 if (gr4.getCheckedRadioButtonId() != -1) {
                     int selectedId1 = gr4.getCheckedRadioButtonId();
                     radioButton4 = view.findViewById(selectedId1);
-                    if (radioButton4.getText().toString().equals("да")) {
+                    if (radioButton4.getText().toString().equals(R.string.ay)) {
                         score += 1;
                     }
-                    if (radioButton4.getText().toString().equals("нет")) {
+                    if (radioButton4.getText().toString().equals(R.string.an)) {
                         score += 0;
                     }
                     gr1.setVisibility(View.GONE);
@@ -167,10 +167,10 @@ public class SecondTestFragment extends Fragment{
                 if (gr5.getCheckedRadioButtonId() != -1) {
                     int selectedId1 = gr5.getCheckedRadioButtonId();
                     radioButton5 = view.findViewById(selectedId1);
-                    if (radioButton5.getText().toString().equals("да")) {
+                    if (radioButton5.getText().toString().equals(R.string.ay)) {
                         score += 1;
                     }
-                    if (radioButton5.getText().toString().equals("нет")) {
+                    if (radioButton5.getText().toString().equals(R.string.an)) {
                         score += 0;
                     }
                     gr1.setVisibility(View.GONE);
@@ -193,10 +193,10 @@ public class SecondTestFragment extends Fragment{
                 if (gr6.getCheckedRadioButtonId() != -1) {
                     int selectedId1 = gr6.getCheckedRadioButtonId();
                     radioButton6 = view.findViewById(selectedId1);
-                    if (radioButton6.getText().toString().equals("да")) {
+                    if (radioButton6.getText().toString().equals(R.string.ay)) {
                         score += 1;
                     }
-                    if (radioButton6.getText().toString().equals("нет")) {
+                    if (radioButton6.getText().toString().equals(R.string.an)) {
                         score += 0;
                     }
                     gr1.setVisibility(View.GONE);
@@ -219,10 +219,10 @@ public class SecondTestFragment extends Fragment{
                 if (gr7.getCheckedRadioButtonId() != -1) {
                     int selectedId1 = gr7.getCheckedRadioButtonId();
                     radioButton7 = view.findViewById(selectedId1);
-                    if (radioButton7.getText().toString().equals("да")) {
+                    if (radioButton7.getText().toString().equals(R.string.ay)) {
                         score += 1;
                     }
-                    if (radioButton7.getText().toString().equals("нет")) {
+                    if (radioButton7.getText().toString().equals(R.string.an)) {
                         score += 0;
                     }
                     gr1.setVisibility(View.GONE);
@@ -242,10 +242,10 @@ public class SecondTestFragment extends Fragment{
         if (gr8.getCheckedRadioButtonId() != -1) {
             int selectedId5 = gr8.getCheckedRadioButtonId();
             radioButton8 = view.findViewById(selectedId5);
-            if (radioButton8.getText().toString().equals("да")) {
+            if (radioButton8.getText().toString().equals(R.string.ay)) {
                 score += 1;
             }
-            if (radioButton8.getText().toString().equals("нет")) {
+            if (radioButton8.getText().toString().equals(R.string.an)) {
                 score += 0;
             }
         }
@@ -264,13 +264,13 @@ public class SecondTestFragment extends Fragment{
                 textView.setVisibility(View.VISIBLE);
 
                 if (score >= 7) {
-                    textView.setText("Вы убеждены, что обладаете личным обаянием. Похоже, так оно и есть, но в некоторых ситуациях Вам следует самокритичнее отнестись к себе и больше уделять внимания не собственной персоне, а окружающим Вас людям.");
+                    textView.setText(R.string.r1t2);
                 } else if (score < 7 && score >= 5) {
-                    textView.setText("Нет никакого сомнения, что Вас можно назвать обаятельным человеком. Вы приятны в общении, у Вас есть чувство собственного достоинства. Вы не станете менять своих убеждений и характера только для того, чтобы заставить обожать себя кого-либо.");
+                    textView.setText(R.string.r2t2);
                 } else if (score < 5 && score >= 3) {
-                    textView.setText("Вы не являетесь всеобщем любимцем лишь потому, что держите обаяние в себе. Вероятно, это происходит потому, что Вы очень нерешительный человек, из-за неуверенности в собственных силах Вы не в состоянии убедить в своей правоте окружающих, даже если правда на Вашей стороне.");
+                    textView.setText(R.string.r3t2);
                 } else if (score < 3) {
-                    textView.setText("Вы лишены обаяния прежде всего потому, что не любите саму себя. Чаще смотритесь в зеркало и учитесь замечать свои достоинства. Недостатки, которые можно исправить, исправляйте, а которые нельзя подвергнуть изменению, превращайте в достоинства, в Вашу «изюминку». В общении с окружающими старайтесь держаться с чувством собственного достоинства");
+                    textView.setText(R.string.r4t2);
                 }
             }
         });

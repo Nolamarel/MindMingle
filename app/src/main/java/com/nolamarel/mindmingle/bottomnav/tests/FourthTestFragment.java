@@ -1,5 +1,7 @@
 package com.nolamarel.mindmingle.bottomnav.tests;
 
+import static com.nolamarel.mindmingle.R.string.*;
+
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -53,10 +55,10 @@ public class FourthTestFragment extends Fragment {
                 if (rg1.getCheckedRadioButtonId() != -1) {
                     int selectedId1 = rg1.getCheckedRadioButtonId();
                     radioButton1 = view.findViewById(selectedId1);
-                    if (radioButton1.getText().toString().equals("да")) {
+                    if (radioButton1.getText().toString().equals(R.string.ay)) {
                         score += 1;
                     }
-                    if (radioButton1.getText().toString().equals("нет")) {
+                    if (radioButton1.getText().toString().equals(R.string.an)) {
                         score += 0;
                     }
                     rg1.setVisibility(View.GONE);
@@ -75,10 +77,10 @@ public class FourthTestFragment extends Fragment {
                 if (rg2.getCheckedRadioButtonId() != -1) {
                     int selectedId2 = rg2.getCheckedRadioButtonId();
                     radioButton2 = view.findViewById(selectedId2);
-                    if (radioButton2.getText().toString().equals("да")) {
+                    if (radioButton2.getText().toString().equals(R.string.ay)) {
                         score += 1;
                     }
-                    if (radioButton2.getText().toString().equals("нет")) {
+                    if (radioButton2.getText().toString().equals(R.string.an)) {
                         score += 0;
                     }
                     btnNext2.setOnClickListener(new View.OnClickListener() {
@@ -102,10 +104,10 @@ public class FourthTestFragment extends Fragment {
                 if (rg3.getCheckedRadioButtonId() != -1) {
                     int selectedId3 = rg3.getCheckedRadioButtonId();
                     radioButton3 = view.findViewById(selectedId3);
-                    if (radioButton3.getText().toString().equals("да")) {
+                    if (radioButton3.getText().toString().equals(R.string.ay)) {
                         score += 1;
                     }
-                    if (radioButton3.getText().toString().equals("нет")) {
+                    if (radioButton3.getText().toString().equals(R.string.an)) {
                         score += 0;
                     }
                     btnNext3.setOnClickListener(new View.OnClickListener() {
@@ -129,10 +131,10 @@ public class FourthTestFragment extends Fragment {
                 if (rg4.getCheckedRadioButtonId() != -1) {
                     int selectedId4 = rg4.getCheckedRadioButtonId();
                     radioButton4 = view.findViewById(selectedId4);
-                    if (radioButton4.getText().toString().equals("да")) {
+                    if (radioButton4.getText().toString().equals(R.string.ay)) {
                         score += 1;
                     }
-                    if (radioButton4.getText().toString().equals("нет")) {
+                    if (radioButton4.getText().toString().equals(R.string.an)) {
                         score += 0;
                     }
                     btnNext4.setOnClickListener(new View.OnClickListener() {
@@ -154,10 +156,10 @@ public class FourthTestFragment extends Fragment {
         if (rg5.getCheckedRadioButtonId() != -1) {
             int selectedId5 = rg5.getCheckedRadioButtonId();
             radioButton5 = view.findViewById(selectedId5);
-            if (radioButton5.getText().toString().equals("да")) {
+            if (radioButton5.getText().toString().equals(R.string.ay)) {
                 score += 1;
             }
-            if (radioButton5.getText().toString().equals("нет")) {
+            if (radioButton5.getText().toString().equals(R.string.an)) {
                 score += 0;
             }
         }
@@ -173,11 +175,11 @@ public class FourthTestFragment extends Fragment {
                 textView.setVisibility(View.VISIBLE);
 
                 if (score >= 4) {
-                    textView.setText("Высокая степень стресса: Результаты указывают на высокий уровень стресса. Рекомендуется обратиться за помощью к квалифицированному специалисту, такому как психолог или психиатр, чтобы получить поддержку и совет по управлению стрессом.");
+                    textView.setText(R.string.r1t4);
                 } else if (score < 4 && score >= 2) {
-                    textView.setText("Средняя степень стресса: Ваши ответы указывают на средний уровень стресса. Это может быть признаком того, что ваш уровень стресса находится в пределах нормы, но все же стоит обратить внимание на свои эмоциональные состояния. Постарайтесь найти способы справиться со стрессом, такие как регулярная физическая активность, медитация, глубокое дыхание или консультации с психологом.");
+                    textView.setText(R.string.r2t4);
                 } else if (score < 2 && score >= 0) {
-                    textView.setText("Низкая степень стресса: Ваши ответы указывают на низкий уровень стресса. Это хорошо, но необходимо помнить, что стресс может изменяться со временем, и важно продолжать заботиться о своем эмоциональном и психологическом благополучии. Регулярный отдых, здоровое питание, поддержание социальных связей и управление временем могут помочь поддерживать ваше хорошее самочувствие.");
+                    textView.setText(R.string.r3t4);
                 }
             }
         });

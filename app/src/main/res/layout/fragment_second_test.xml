@@ -25,25 +25,25 @@
                 android:id="@+id/vt1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Вы неожиданно добились успеха у того, кто у Вас вызывает антипатию. Изменится ли у Вас мнение об этом человеке, станет ли он Вам более приятен?." />
+                android:text="@string/q21" />
 
             <RadioButton
                 android:id="@+id/br1_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="да" />
+                android:text="@string/ay" />
 
             <RadioButton
                 android:id="@+id/br2_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="нет" />
+                android:text="@string/an" />
 
             <Button
                 android:id="@+id/bn1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Следующий вопрос"
+                android:text="@string/nextq"
                 android:textSize="20sp" />
 
         </RadioGroup>
@@ -62,26 +62,26 @@
                 android:id="@+id/vt2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Сможете ли Вы увлечь своей идеей человека, разговаривая с ним лишь по телефону?" />
+                android:text="@string/q22" />
 
             <RadioButton
                 android:id="@+id/br1_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="да" />
+                android:text="@string/ay" />
 
             <RadioButton
                 android:id="@+id/br2_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="нет" />
+                android:text="@string/an" />
 
 
             <Button
                 android:id="@+id/bn2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Следующий вопрос"
+                android:text="@string/nextq"
                 android:textSize="20sp" />
 
         </RadioGroup>
@@ -100,25 +100,25 @@
                 android:id="@+id/vt3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Прислушиваетесь ли Вы в спорах к мнению, с которым не согласны?" />
+                android:text="@string/q23" />
 
             <RadioButton
                 android:id="@+id/br1_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="да" />
+                android:text="@string/ay" />
 
             <RadioButton
                 android:id="@+id/br2_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="нет" />
+                android:text="@string/an" />
 
             <Button
                 android:id="@+id/bn3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Следующий вопрос"
+                android:text="@string/nextq"
                 android:textSize="20sp" />
 
         </RadioGroup>
@@ -137,25 +137,25 @@
                 android:id="@+id/vt4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Были ли Вы в детстве всеобщем любимицем – и детей и взрослых?" />
+                android:text="@string/q42" />
 
             <RadioButton
                 android:id="@+id/br1_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="да" />
+                android:text="@string/ay" />
 
             <RadioButton
                 android:id="@+id/br2_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="нет" />
+                android:text="@string/an" />
 
             <Button
                 android:id="@+id/bn4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Следующий вопрос"
+                android:text="@string/nextq"
                 android:textSize="20sp" />
 
         </RadioGroup>
@@ -174,25 +174,25 @@
                 android:id="@+id/vt5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Вы любите смотреться в зеркало?" />
+                android:text="@string/q52" />
 
             <RadioButton
                 android:id="@+id/br1_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="да" />
+                android:text="@string/ay" />
 
             <RadioButton
                 android:id="@+id/br2_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="нет" />
+                android:text="@string/an" />
 
             <Button
                 android:id="@+id/bn5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Следующий вопрос"
+                android:text="@string/nextq"
                 android:textSize="20sp" />
 
         </RadioGroup>
@@ -211,25 +211,25 @@
                 android:id="@+id/vt6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Часто ли Вы слышите комплименты в свой адрес, причем бескорыстные и искренние?" />
+                android:text="@string/q62" />
 
             <RadioButton
                 android:id="@+id/br1_6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="да" />
+                android:text="@string/ay" />
 
             <RadioButton
                 android:id="@+id/br2_6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="нет" />
+                android:text="@string/an" />
 
             <Button
                 android:id="@+id/bn6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Следующий вопрос"
+                android:text="@string/nextq"
                 android:textSize="20sp" />
 
         </RadioGroup>
@@ -248,25 +248,25 @@
             android:id="@+id/vt7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Умеете ли Вы избегать неприятных вопросов, не обижая при этом собеседника?" />
+            android:text="@string/q72" />
 
         <RadioButton
             android:id="@+id/br1_7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="да" />
+            android:text="@string/ay" />
 
         <RadioButton
             android:id="@+id/br2_7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="нет" />
+            android:text="@string/an" />
 
         <Button
             android:id="@+id/bn7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Следующий вопрос"
+            android:text="@string/nextq"
             android:textSize="20sp" />
 
         </RadioGroup>
@@ -285,19 +285,19 @@
                 android:id="@+id/vt8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="При письме Ваши строчки «ползут» вверх?" />
+                android:text="@string/q82" />
 
             <RadioButton
                 android:id="@+id/br1_8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="да" />
+                android:text="@string/ay" />
 
             <RadioButton
                 android:id="@+id/br2_8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="нет" />
+                android:text="@string/an" />
 
 
         </RadioGroup>
@@ -308,7 +308,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
-            android:text="Завершить тест"
+            android:text="@string/closetest"
             android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.179"
@@ -320,7 +320,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="224dp"
-            android:text="Итог"
+            android:text="@string/itog"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"

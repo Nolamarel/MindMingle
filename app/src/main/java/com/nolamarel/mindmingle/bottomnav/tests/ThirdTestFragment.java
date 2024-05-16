@@ -48,10 +48,10 @@ public class ThirdTestFragment extends Fragment{
                 if (gr1.getCheckedRadioButtonId() != -1) {
                     int selectedId1 = gr1.getCheckedRadioButtonId();
                     radioButton1 = view.findViewById(selectedId1);
-                    if (radioButton1.getText().toString().equals("Большинству людей можно доверять.")) {
+                    if (radioButton1.getText().toString().equals(R.string.a13)) {
                         score += 2;
                     }
-                    if (radioButton1.getText().toString().equals("Во взаимодействии с другими нужно соблюдать осторожность.")) {
+                    if (radioButton1.getText().toString().equals(R.string.a23)) {
                         score += 0;
                     }
                     gr1.setVisibility(View.GONE);
@@ -69,10 +69,10 @@ public class ThirdTestFragment extends Fragment{
                 if (gr2.getCheckedRadioButtonId() != -1) {
                     int selectedId1 = gr2.getCheckedRadioButtonId();
                     radioButton2 = view.findViewById(selectedId1);
-                    if (radioButton2.getText().toString().equals("Стремятся быть полезными другим.")) {
+                    if (radioButton2.getText().toString().equals(R.string.a33)) {
                         score += 2;
                     }
-                    if (radioButton2.getText().toString().equals("Думают только о себе.")) {
+                    if (radioButton2.getText().toString().equals(R.string.a43)) {
                         score += 0;
                     }
                     gr1.setVisibility(View.GONE);
@@ -87,10 +87,10 @@ public class ThirdTestFragment extends Fragment{
         if (gr3.getCheckedRadioButtonId() != -1) {
             int selectedId5 = gr3.getCheckedRadioButtonId();
             radioButton3 = view.findViewById(selectedId5);
-            if (radioButton3.getText().toString().equals("Вели бы себя честно.")) {
+            if (radioButton3.getText().toString().equals(R.string.a53)) {
                 score += 2;
             }
-            if (radioButton3.getText().toString().equals("Попытались бы обмануть, если бы им представилась такая возможность.")) {
+            if (radioButton3.getText().toString().equals(R.string.a63)) {
                 score += 0;
             }
         }
@@ -104,13 +104,11 @@ public class ThirdTestFragment extends Fragment{
                 textView.setVisibility(View.VISIBLE);
 
                 if (score == 6) {
-                    textView.setText("У вас высокий показатель доверия");
+                    textView.setText(R.string.r1t3);
                 } else if (score == 4) {
-                    textView.setText("У вас средний показатель доверия");
-                } else if (score == 2) {
-                    textView.setText("У вас низкий показатель доверия");
-                } else if (score == 0) {
-                    textView.setText("У вас низкий показатель доверия");
+                    textView.setText(R.string.r2t3);
+                } else if (score <= 2) {
+                    textView.setText(R.string.r3t3);
                 }
             }
         });

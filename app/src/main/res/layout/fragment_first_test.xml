@@ -25,43 +25,43 @@
                 android:id="@+id/tv1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1. Большинство людей ответят грубостью на грубость." />
+                android:text="@string/_1" />
 
             <RadioButton
                 android:id="@+id/rb1_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="практически всегда;" />
+                android:text="@string/answer1" />
 
             <RadioButton
                 android:id="@+id/rb2_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="часто;" />
+                android:text="@string/answer2" />
 
             <RadioButton
                 android:id="@+id/rb3_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="иногда;" />
+                android:text="@string/answer3" />
 
             <RadioButton
                 android:id="@+id/rb4_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="случайно;" />
+                android:text="@string/answer4" />
 
             <RadioButton
                 android:id="@+id/rb5_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="очень редко." />
+                android:text="@string/answer5" />
 
             <Button
                 android:id="@+id/btnNext1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Следующий вопрос"
+                android:text="@string/nextq"
                 android:textSize="20sp" />
 
         </RadioGroup>
@@ -80,43 +80,43 @@
                 android:id="@+id/tv2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="2. Большинство людей не верят во что-либо новое до тех пор, пока не испытают это на себе." />
+                android:text="@string/_2" />
 
             <RadioButton
                 android:id="@+id/rb1_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="практически всегда;" />
+                android:text="@string/answer1" />
 
             <RadioButton
                 android:id="@+id/rb2_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="часто;" />
+                android:text="@string/answer2" />
 
             <RadioButton
                 android:id="@+id/rb3_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="иногда;" />
+                android:text="@string/answer3" />
 
             <RadioButton
                 android:id="@+id/rb4_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="случайно;" />
+                android:text="@string/answer4" />
 
             <RadioButton
                 android:id="@+id/rb5_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="очень редко." />
+                android:text="@string/answer5" />
 
             <Button
                 android:id="@+id/btnNext2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Следующий вопрос"
+                android:text="@string/nextq"
                 android:textSize="20sp" />
 
         </RadioGroup>
@@ -135,43 +135,43 @@
                 android:id="@+id/tv3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="3. Тот, кто полностью доверят другим людям, часто находится в затруднительном положении." />
+                android:text="@string/_3" />
 
             <RadioButton
                 android:id="@+id/rb1_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="практически всегда;" />
+                android:text="@string/answer1" />
 
             <RadioButton
                 android:id="@+id/rb2_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="часто;" />
+                android:text="@string/answer2" />
 
             <RadioButton
                 android:id="@+id/rb3_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="иногда;" />
+                android:text="@string/answer3" />
 
             <RadioButton
                 android:id="@+id/rb4_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="случайно;" />
+                android:text="@string/answer4" />
 
             <RadioButton
                 android:id="@+id/rb5_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="очень редко." />
+                android:text="@string/answer5" />
 
             <Button
                 android:id="@+id/btnNext3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Следующий вопрос"
+                android:text="@string/nextq"
                 android:textSize="20sp" />
 
         </RadioGroup>
@@ -190,43 +190,43 @@
                 android:id="@+id/tv4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="4. Большинство людей работают в полную силу только в том случае, если их заставляют это делать." />
+                android:text="@string/_4" />
 
             <RadioButton
                 android:id="@+id/rb1_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="практически всегда;" />
+                android:text="@string/answer1" />
 
             <RadioButton
                 android:id="@+id/rb2_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="часто;" />
+                android:text="@string/answer2" />
 
             <RadioButton
                 android:id="@+id/rb3_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="иногда;" />
+                android:text="@string/answer3" />
 
             <RadioButton
                 android:id="@+id/rb4_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="случайно;" />
+                android:text="@string/answer4" />
 
             <RadioButton
                 android:id="@+id/rb5_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="очень редко." />
+                android:text="@string/answer5" />
 
             <Button
                 android:id="@+id/btnNext4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Следующий вопрос"
+                android:text="@string/nextq"
                 android:textSize="20sp" />
 
         </RadioGroup>
@@ -245,37 +245,37 @@
                 android:id="@+id/tv5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="5. Даже самые отвратительные преступники имеют хоть капельку приличия." />
+                android:text="@string/_5" />
 
             <RadioButton
                 android:id="@+id/rb1_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="практически всегда;" />
+                android:text="@string/answer1" />
 
             <RadioButton
                 android:id="@+id/rb2_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="часто;" />
+                android:text="@string/answer2" />
 
             <RadioButton
                 android:id="@+id/rb3_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="иногда;" />
+                android:text="@string/answer3" />
 
             <RadioButton
                 android:id="@+id/rb4_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="случайно;" />
+                android:text="@string/answer4" />
 
             <RadioButton
                 android:id="@+id/rb5_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="очень редко." />
+                android:text="@string/answer5" />
 
         </RadioGroup>
 
@@ -284,7 +284,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
-            android:text="Завершить тест"
+            android:text="@string/closetest"
             android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.179"
@@ -296,7 +296,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="224dp"
-            android:text="Итог"
+            android:text="@string/itog"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
