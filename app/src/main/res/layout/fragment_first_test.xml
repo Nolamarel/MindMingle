@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bottomnav.tests.FirstTestFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:id="@+id/rg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Большинство людей ответят грубостью на грубость." />
+
+            <RadioButton
+                android:id="@+id/rb1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="практически всегда;" />
+
+            <RadioButton
+                android:id="@+id/rb2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="часто;" />
+
+            <RadioButton
+                android:id="@+id/rb3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="иногда;" />
+
+            <RadioButton
+                android:id="@+id/rb4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="случайно;" />
+
+            <RadioButton
+                android:id="@+id/rb5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="очень редко." />
+
+            <Button
+                android:id="@+id/btnNext1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Следующий вопрос"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Большинство людей не верят во что-либо новое до тех пор, пока не испытают это на себе." />
+
+            <RadioButton
+                android:id="@+id/rb1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="практически всегда;" />
+
+            <RadioButton
+                android:id="@+id/rb2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="часто;" />
+
+            <RadioButton
+                android:id="@+id/rb3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="иногда;" />
+
+            <RadioButton
+                android:id="@+id/rb4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="случайно;" />
+
+            <RadioButton
+                android:id="@+id/rb5_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="очень редко." />
+
+            <Button
+                android:id="@+id/btnNext2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Следующий вопрос"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Тот, кто полностью доверят другим людям, часто находится в затруднительном положении." />
+
+            <RadioButton
+                android:id="@+id/rb1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="практически всегда;" />
+
+            <RadioButton
+                android:id="@+id/rb2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="часто;" />
+
+            <RadioButton
+                android:id="@+id/rb3_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="иногда;" />
+
+            <RadioButton
+                android:id="@+id/rb4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="случайно;" />
+
+            <RadioButton
+                android:id="@+id/rb5_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="очень редко." />
+
+            <Button
+                android:id="@+id/btnNext3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Следующий вопрос"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Большинство людей работают в полную силу только в том случае, если их заставляют это делать." />
+
+            <RadioButton
+                android:id="@+id/rb1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="практически всегда;" />
+
+            <RadioButton
+                android:id="@+id/rb2_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="часто;" />
+
+            <RadioButton
+                android:id="@+id/rb3_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="иногда;" />
+
+            <RadioButton
+                android:id="@+id/rb4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="случайно;" />
+
+            <RadioButton
+                android:id="@+id/rb5_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="очень редко." />
+
+            <Button
+                android:id="@+id/btnNext4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Следующий вопрос"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. Даже самые отвратительные преступники имеют хоть капельку приличия." />
+
+            <RadioButton
+                android:id="@+id/rb1_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="практически всегда;" />
+
+            <RadioButton
+                android:id="@+id/rb2_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="часто;" />
+
+            <RadioButton
+                android:id="@+id/rb3_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="иногда;" />
+
+            <RadioButton
+                android:id="@+id/rb4_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="случайно;" />
+
+            <RadioButton
+                android:id="@+id/rb5_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="очень редко." />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="Завершить тест"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.179"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg5" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="224dp"
+            android:text="Итог"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -3,6 +3,7 @@ package com.nolamarel.mindmingle.tests;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -14,6 +15,7 @@ import java.util.ArrayList;
 
 public class TestsAdapter extends RecyclerView.Adapter<TestsViewHolder> {
     private ArrayList<Test> tests = new ArrayList<>();
+    private OnItemClickListener listener;
 
     public TestsAdapter(ArrayList<Test> tests) {
         this.tests = tests;
@@ -35,10 +37,31 @@ public class TestsAdapter extends RecyclerView.Adapter<TestsViewHolder> {
         holder.test_paragraph.setText(test.testParagraph);
         holder.test_iv.setImageResource(test.testIv);
 
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (listener != null) {
+                    int position = holder.getAdapterPosition();
+                    if (position != RecyclerView.NO_POSITION) {
+                        listener.onItemClick(position);
+                    }
+                }
+            }
+        });
+
+
     }
 
     @Override
     public int getItemCount() {
         return tests.size();
+    }
+
+    public interface OnItemClickListener {
+        void onItemClick(int position);
+    }
+
+    public void setOnItemClickListener(OnItemClickListener listener) {
+        this.listener = listener;
     }
 }
