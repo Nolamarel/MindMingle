@@ -2,6 +2,7 @@ package com.nolamarel.mindmingle.bottomnav.profile;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
@@ -9,6 +10,7 @@ import android.provider.MediaStore;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.Toast;
 
 import androidx.activity.result.ActivityResult;
@@ -29,9 +31,11 @@ import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.UploadTask;
 import com.nolamarel.mindmingle.LoginActivity;
+import com.nolamarel.mindmingle.R;
 import com.nolamarel.mindmingle.databinding.FragmentProfileBinding;
 
 import java.io.IOException;
+import java.util.Locale;
 
 public class ProfileFragment extends Fragment {
     private FragmentProfileBinding binding;
@@ -59,7 +63,37 @@ public class ProfileFragment extends Fragment {
             }
         });
 
+        Button changeLocaleButton = binding.changeLocaleButton;
+        changeLocaleButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String currentLang = Locale.getDefault().getLanguage();
+                switch (currentLang) {
+                    case "en":
+                        changeLocale("ru");
+                        break;
+                    case "ru":
+                        changeLocale("en");
+                        break;
+                    default:
+                        changeLocale("ru");
+                        break;
+                }
+            }
+        });
+
         return binding.getRoot();
+    }
+
+    public void changeLocale(String lang) {
+        Locale locale = new Locale(lang);
+        Locale.setDefault(locale);
+        Configuration config = new Configuration();
+        config.locale = locale;
+        Activity activity = getActivity();
+        if (activity != null) {
+            activity.getResources().updateConfiguration(config, activity.getResources().getDisplayMetrics());
+        }
     }
 
     ActivityResultLauncher<Intent> pickImageActivityResultLauncher = registerForActivityResult(
