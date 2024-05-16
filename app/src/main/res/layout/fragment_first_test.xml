@@ -33,6 +33,7 @@
             <RadioButton
                 android:id="@+id/rb1_1"
                 android:layout_width="wrap_content"
+                android:textSize="16sp"
                 android:layout_height="wrap_content"
                 android:text="@string/answer1" />
 
@@ -40,24 +41,28 @@
                 android:id="@+id/rb2_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer2" />
 
             <RadioButton
                 android:id="@+id/rb3_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer3" />
 
             <RadioButton
                 android:id="@+id/rb4_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer4" />
 
             <RadioButton
                 android:id="@+id/rb5_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer5" />
 
             <Button
@@ -66,6 +71,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="24dp"
+                android:backgroundTint="@color/dark_body"
                 android:text="@string/nextq"
                 android:textSize="20sp" />
 
@@ -94,30 +100,35 @@
                 android:id="@+id/rb1_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer1" />
 
             <RadioButton
                 android:id="@+id/rb2_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer2" />
 
             <RadioButton
                 android:id="@+id/rb3_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer3" />
 
             <RadioButton
                 android:id="@+id/rb4_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer4" />
 
             <RadioButton
                 android:id="@+id/rb5_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer5" />
 
             <Button
@@ -126,6 +137,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="24dp"
+                android:backgroundTint="@color/dark_body"
                 android:text="@string/nextq"
                 android:textSize="20sp" />
 
@@ -154,30 +166,35 @@
                 android:id="@+id/rb1_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer1" />
 
             <RadioButton
                 android:id="@+id/rb2_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer2" />
 
             <RadioButton
                 android:id="@+id/rb3_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer3" />
 
             <RadioButton
                 android:id="@+id/rb4_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer4" />
 
             <RadioButton
                 android:id="@+id/rb5_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer5" />
 
             <Button
@@ -186,6 +203,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="24dp"
+                android:backgroundTint="@color/dark_body"
                 android:text="@string/nextq"
                 android:textSize="20sp" />
 
@@ -214,30 +232,35 @@
                 android:id="@+id/rb1_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer1" />
 
             <RadioButton
                 android:id="@+id/rb2_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer2" />
 
             <RadioButton
                 android:id="@+id/rb3_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer3" />
 
             <RadioButton
                 android:id="@+id/rb4_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer4" />
 
             <RadioButton
                 android:id="@+id/rb5_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer5" />
 
             <Button
@@ -246,6 +269,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="24dp"
+                android:backgroundTint="@color/dark_body"
                 android:text="@string/nextq"
                 android:textSize="20sp" />
 
@@ -274,30 +298,35 @@
                 android:id="@+id/rb1_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer1" />
 
             <RadioButton
                 android:id="@+id/rb2_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer2" />
 
             <RadioButton
                 android:id="@+id/rb3_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer3" />
 
             <RadioButton
                 android:id="@+id/rb4_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer4" />
 
             <RadioButton
                 android:id="@+id/rb5_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:text="@string/answer5" />
 
         </RadioGroup>
@@ -308,6 +337,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:textSize="20sp"
+            android:backgroundTint="@color/dark_body"
             android:text="@string/closetest"
             android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
