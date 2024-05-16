@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bottomnav.tests.SecondTestFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:id="@+id/gr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/vt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Вы неожиданно добились успеха у того, кто у Вас вызывает антипатию. Изменится ли у Вас мнение об этом человеке, станет ли он Вам более приятен?." />
+
+            <RadioButton
+                android:id="@+id/br1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="да" />
+
+            <RadioButton
+                android:id="@+id/br2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="нет" />
+
+            <Button
+                android:id="@+id/bn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Следующий вопрос"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/gr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/vt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Сможете ли Вы увлечь своей идеей человека, разговаривая с ним лишь по телефону?" />
+
+            <RadioButton
+                android:id="@+id/br1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="да" />
+
+            <RadioButton
+                android:id="@+id/br2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="нет" />
+
+
+            <Button
+                android:id="@+id/bn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Следующий вопрос"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/gr3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/vt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Прислушиваетесь ли Вы в спорах к мнению, с которым не согласны?" />
+
+            <RadioButton
+                android:id="@+id/br1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="да" />
+
+            <RadioButton
+                android:id="@+id/br2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="нет" />
+
+            <Button
+                android:id="@+id/bn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Следующий вопрос"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/gr4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/vt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Были ли Вы в детстве всеобщем любимицем – и детей и взрослых?" />
+
+            <RadioButton
+                android:id="@+id/br1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="да" />
+
+            <RadioButton
+                android:id="@+id/br2_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="нет" />
+
+            <Button
+                android:id="@+id/bn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Следующий вопрос"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/gr5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/vt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Вы любите смотреться в зеркало?" />
+
+            <RadioButton
+                android:id="@+id/br1_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="да" />
+
+            <RadioButton
+                android:id="@+id/br2_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="нет" />
+
+            <Button
+                android:id="@+id/bn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Следующий вопрос"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/gr6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/vt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Часто ли Вы слышите комплименты в свой адрес, причем бескорыстные и искренние?" />
+
+            <RadioButton
+                android:id="@+id/br1_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="да" />
+
+            <RadioButton
+                android:id="@+id/br2_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="нет" />
+
+            <Button
+                android:id="@+id/bn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Следующий вопрос"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/gr7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/vt7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Умеете ли Вы избегать неприятных вопросов, не обижая при этом собеседника?" />
+
+        <RadioButton
+            android:id="@+id/br1_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="да" />
+
+        <RadioButton
+            android:id="@+id/br2_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="нет" />
+
+        <Button
+            android:id="@+id/bn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Следующий вопрос"
+            android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/gr8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/vt8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="При письме Ваши строчки «ползут» вверх?" />
+
+            <RadioButton
+                android:id="@+id/br1_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="да" />
+
+            <RadioButton
+                android:id="@+id/br2_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="нет" />
+
+
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/btnDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="Завершить тест"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.179"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gr8" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="224dp"
+            android:text="Итог"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

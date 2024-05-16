@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bottomnav.tests.ThirdTestFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:id="@+id/gr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/vt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Как вы думаете, большинству людей можно доверять или во взаимодействии с другими нужно соблюдать осторожность?" />
+
+            <RadioButton
+                android:id="@+id/br1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Большинству людей можно доверять." />
+
+            <RadioButton
+                android:id="@+id/br2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Во взаимодействии с другими нужно соблюдать осторожность." />
+
+            <Button
+                android:id="@+id/bn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Следующий вопрос"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/gr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/vt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Могли бы вы сказать, что люди чаще всего стремятся быть полезными другим или они думают только о себе?" />
+
+            <RadioButton
+                android:id="@+id/br1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Стремятся быть полезными другим." />
+
+            <RadioButton
+                android:id="@+id/br2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Думают только о себе." />
+
+
+            <Button
+                android:id="@+id/bn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Следующий вопрос"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/gr3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/vt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Как вы думаете, большинство людей попытались бы обмануть вас, если бы им представилась такая возможность, или вели бы себя честно?" />
+
+            <RadioButton
+                android:id="@+id/br2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Вели бы себя честно." />
+
+            <RadioButton
+                android:id="@+id/br1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Попытались бы обмануть, если бы им представилась такая возможность." />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="Завершить тест"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.179"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gr3" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="224dp"
+            android:text="Итог"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
