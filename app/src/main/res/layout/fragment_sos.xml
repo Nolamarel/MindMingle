@@ -13,7 +13,7 @@
         android:layout_height="200dp"
         android:layout_marginTop="250dp"
         android:textSize="28sp"
-        android:text="Нажми"
+        android:text="@string/press"
         android:backgroundTint="@color/pink"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

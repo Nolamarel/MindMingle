@@ -72,7 +72,8 @@
     <string name="t33tf">M. Rosenberg\'s scale of trust</string>
     <string name="t4tf">Test 4</string>
     <string name="t44tf">A psychological test to determine the level of stress</string>
-    <string name="pause">pause</string>
-    <string name="inhale">inhale</string>
-    <string name="exhale">exhale</string>
+    <string name="pause">Pause</string>
+    <string name="inhale">Inhale</string>
+    <string name="exhale">Exhale</string>
+    <string name="press">Press</string>
 </resources>
