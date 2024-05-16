@@ -75,11 +75,20 @@ public class SosFragment extends Fragment {
             }
         };
 
+        binding.breathingButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
 
 
         binding.breathingButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                set1.cancel();
+                timer.cancel();
                 timer.start();
                 state = 0;
                 binding.breathingButton.setText("Вдох");
