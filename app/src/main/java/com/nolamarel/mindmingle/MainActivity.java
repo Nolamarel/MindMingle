@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.nolamarel.mindmingle.bottomnav.chats.ChatsFragment;
@@ -31,7 +32,6 @@ private ActivityMainBinding binding;
         FirebaseAuth mAuth;
         mAuth = FirebaseAuth.getInstance();
 
-        //For delete user
 
 //        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 //
@@ -47,6 +47,7 @@ private ActivityMainBinding binding;
 //                        }
 //                    });
 //        }
+
 
         mAuth.addAuthStateListener(new FirebaseAuth.AuthStateListener() {
             @Override

@@ -29,13 +29,16 @@ private ActivitySignUpBinding binding;
         binding.signUpButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (binding.nameEmail.getText().toString().isEmpty() || binding.namePassword.getText().toString().isEmpty() || binding.userName.getText().toString().isEmpty()) {
-                    Toast.makeText(SignUpActivity.this, "Fields can't be empty", Toast.LENGTH_SHORT).show();
+                if (binding.nameEmail.getText().toString().isEmpty() || binding.namePassword.
+                        getText().toString().isEmpty() || binding.userName.getText().toString().isEmpty()) {
+                    Toast.makeText(SignUpActivity.this, "Fields can't be empty",
+                            Toast.LENGTH_SHORT).show();
                 } else {
                     FirebaseAuth.getInstance().createUserWithEmailAndPassword(binding.nameEmail.getText().toString(), binding.namePassword.getText().toString())
                             .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                                 @Override
-                                public void onComplete(@NonNull Task<AuthResult> task) {
+                                public void onComplete(@NonNull
+                                                       Task<AuthResult> task) {
                                     if(task.isSuccessful()){
                                         HashMap<String, String> userInfo = new HashMap<>();
                                         userInfo.put("chats", "");
@@ -43,7 +46,8 @@ private ActivitySignUpBinding binding;
                                         userInfo.put("email", binding.nameEmail.getText().toString());
                                         userInfo.put("username", binding.userName.getText().toString());
                                         userInfo.put("profileImage", "");
-                                        FirebaseDatabase.getInstance().getReference().child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid())
+                                        FirebaseDatabase.getInstance().getReference().child
+                                                        ("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid())
                                                 .setValue(userInfo)
                                                 .addOnCompleteListener(new OnCompleteListener<Void>() {
                                                     @Override
@@ -52,7 +56,8 @@ private ActivitySignUpBinding binding;
                                                             startActivity(new Intent(SignUpActivity.this, MainActivity.class));
                                                         } else {
                                                             // Обрабатываем сбой сохранения данных
-                                                            Toast.makeText(SignUpActivity.this, "Ошибка при сохранении данных пользователя", Toast.LENGTH_SHORT).show();
+                                                            Toast.makeText(SignUpActivity.this,
+                                                                    "Ошибка при сохранении данных пользователя", Toast.LENGTH_SHORT).show();
                                                         }
                                                     }
                                                 });
