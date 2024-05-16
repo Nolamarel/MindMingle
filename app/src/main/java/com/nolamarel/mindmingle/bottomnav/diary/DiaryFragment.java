@@ -61,8 +61,6 @@ public class DiaryFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         binding = FragmentDiaryBinding.inflate(inflater, container, false);
 
-
-
         binding.addTaskBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -71,12 +69,9 @@ public class DiaryFragment extends Fragment {
                 startActivity(intent);
             }
         });
-
         loadNotes();
-
         return binding.getRoot();
     }
-
     public void onResume() {
 
         super.onResume();
