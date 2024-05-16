@@ -31,9 +31,9 @@
         android:id="@+id/send_message_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
         android:src="@drawable/send_icon"
         app:backgroundTint="@android:color/transparent"
-        android:layout_marginEnd="10dp"
         app:layout_constraintBottom_toBottomOf="@+id/message_et"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/message_et" />
